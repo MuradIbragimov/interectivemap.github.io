@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Интерактивная карта продвижения войск</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="main-map">
+      <img src="img/Карта операции условно.png" alt="" id="png-map" />
+    </div>
+
+    <div class="png-str" id="png-str">
+      <img
+        src="img/Стрелки 1/Стрелки 1 УкрФр-1-01-01.png"
+        alt=""
+        id="str1"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 1/Стрелки 1 УкрФр-2-01-01.png"
+        alt=""
+        id="str1-1"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 1/Стрелки 1БелФр-2-01-01.png"
+        alt=""
+        id="str1-1-1"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 1/Стрелки 1БелФр-1-01-01.png"
+        alt=""
+        id="str1-1-2"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 2/Стрелка 2 БелФр-01.png"
+        alt=""
+        id="str2"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 3/Стрелка Войска польского-01.png"
+        alt=""
+        id="str3"
+        class="str"
+      />
+      <img
+        src="img/Стрелка 4/Контрудар№1-01.png"
+        alt=""
+        id="str4"
+        class="str"
+      />
+      <img
+        src="img/Стрелка 4/еще стрелка-01.png"
+        alt=""
+        id="str4-1"
+        class="str"
+      />
+      <img src="img/Стрелка 4/Стрелка-01.png" alt="" id="str4-2" class="str" />
+      <img src="img/Стрелка 5/Контрудары-01.png" alt="" id="str5" class="str" />
+      <img
+        src="img/Стрелки 6/линия фронта к 25 февраля-01-01.png"
+        alt=""
+        id="str6"
+        class="str"
+      />
+      <img src="img/Стрелка 7/Котёл№1-01.png" alt="" id="str7" class="str" />
+      <img src="img/Стрелка 7/Котёл№2-01.png" alt="" id="str7-1" class="str" />
+      <img
+        src="img/Стрелка 8/фронт к 8 мая-01.png"
+        alt=""
+        id="str8"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 9/26 апр по 8 мая-ПЕРВОЕ-01.png"
+        alt=""
+        id="str9"
+        class="str"
+      />
+      <img
+        src="img/Стрелки 9/26 апр по 8 мая-ВТОРОЕ-01.png"
+        alt=""
+        id="str9-1"
+        class="str"
+      />
+    </div>
+
+    <div class="information">
+      <div class="inf">
+        <img src="img/линия_фронта1.png" alt="" />
+        <p>Линия фронта к 16.IV.1945 г.</p>
+      </div>
+      <div class="inf">
+        <img src="img/Укрепления.png" alt="" />
+        <p>Укрепление немецких войск на подступах к Берлину</p>
+      </div>
+      <div class="inf">
+        <img src="img/направление_ударов1.png" alt="" />
+        <p>Направление ударов советских войск 16 - 25.IV.1945 г.</p>
+      </div>
+      <div class="inf">
+        <img src="img/линия_фронта2.png" alt="" />
+        <p>Линия фронта 26.IV.1945 г.</p>
+      </div>
+      <div class="inf">
+        <img src="img/направление_ударов2.png" alt="" />
+        <p>Направление ударов совествких войск 26.IV - 8.V.1945 г.</p>
+      </div>
+      <div class="inf">
+        <img src="img/рубеж_выхода.png" alt="" />
+        <p>Рубеж совествкий войск и войск союзников 8 - 11.V.1945 г.</p>
+      </div>
+      <div class="inf">
+        <img src="img/войс_союзников.png" alt="" />
+        <p>Действия войск союзников</p>
+      </div>
+      <div class="inf">
+        <img src="img/контрудар.png" alt="" />
+        <p>Контрудары немецких войск</p>
+      </div>
+    </div>
+
+    <nav>
+      <button id="button-count">Начать/Пауза</button>
+      <button class="show" id="show">
+        <img src="img/eye-closed-svgrepo-com (1).svg" alt="Иконка" />
+      </button>
+    </nav>
+
+    <div class="army-info" id="armi-info">
+      <img src="img/photo_2024-05-12_19-37-13.jpg" alt="" />
+    </div>
+
+    <div class="information_page" id="information_page">
+      <img src="img/1 действ.png" alt="" id="inf1" class="infinfdeyst str" />
+      <img src="img/2 действ.png" alt="" id="inf2" class="infinfdeyst str" />
+      <img src="img/3 действ.png" alt="" id="inf3" class="infinfdeyst str" />
+      <img src="img/4 действ.png" alt="" id="inf4" class="infinfdeyst str" />
+      <img src="img/5 действ.png" alt="" id="inf5" class="infinfdeyst str" />
+      <img src="img/6 действ.png" alt="" id="inf6" class="infinfdeyst str" />
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
